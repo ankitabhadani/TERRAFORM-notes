@@ -1,1 +1,20 @@
+# in day 2 
+always use extention .tf or yml.tf 
+# how to entevariable username {}
+
+
+output printname {
+     value = "hello, ${var.username}"
+}r input from user
+
+
+
+
+
+
+
+
+
+
+
 
