@@ -11,11 +11,13 @@ variable username {}
 output printname {
      value = "hello, ${var.username}"
 }
+--------------------------------------
+if u want to run the tf file on non-interactive mode 
+ code:
+variable username {}
 
-
-
-
-
-
-
-
+output printname {
+     value = "hello, ${var.username}"
+}
+run command like this
+terraform plan -var "username=ankita"
