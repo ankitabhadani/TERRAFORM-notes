@@ -9,6 +9,7 @@ variable username {}
 
 
 output printname {
+     default ="yashi"
      value = "hello, ${var.username}"
 }
 --------------------------------------
@@ -21,3 +22,15 @@ output printname {
 }
 run command like this
 terraform plan -var "username=ankita"
+**********************************************************************
+Using    Default  keywords
+EX:
+ variable username {
+default = "yashi"
+}
+
+output printname {
+     
+     value = "hello, ${var.username}"
+}
+
